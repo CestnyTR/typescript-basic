@@ -1,35 +1,35 @@
-🚀 TypeScript Temelleri: Pratik Uygulama Projesi
-Bu proje, bir Angular dersinden edindiğim "TypeScript Temelleri" bilgilerini pekiştirmek ve pratik uygulamalarla kalıcı hale getirmek için oluşturduğum kapsamlı bir başlangıç seviyesi TypeScript deposudur. TypeScript'in JavaScript'e göre sunduğu güçlü avantajları, canlı kod örnekleri üzerinden keşfetmeyi hedefler.
+🚀 TypeScript Fundamentals: A Practical Project
+This project is a comprehensive, beginner-level TypeScript repository created to solidify my understanding of the "TypeScript Fundamentals" learned from an Angular course. It aims to explore the powerful advantages TypeScript offers over JavaScript through hands-on code examples.
 
-💡 Projenin Amacı ve Felsefesi
-Bu depo, sadece teorik bilgileri değil, aynı zamanda TypeScript'in gerçek dünyada nasıl çalıştığını da göstermektedir. Kodunuzun derleme aşamasında hataları yakalama yeteneği sayesinde daha güvenilir, bakımı kolay ve ölçeklenebilir uygulamalar geliştirmeyi öğrenmek isteyenler için ideal bir kaynaktır. Bu proje, bir geliştiricinin neden TypeScript'i tercih etmesi gerektiğini somut örneklerle ortaya koymaktadır.
+💡 Project Goal and Philosophy
+This repository is designed to showcase not just theoretical knowledge, but also how TypeScript works in real-world scenarios. It is an ideal resource for anyone who wants to learn how to build more reliable, maintainable, and scalable applications by leveraging TypeScript's ability to catch errors during the compilation phase. This project provides concrete examples that demonstrate why a developer should choose TypeScript.
 
-📚 Kapsanan Konular
-Her bir konu başlığı, kendi içinde anlaşılır ve takip edilebilir kod parçacıkları ile desteklenmektedir.
+📚 Covered Topics
+Each topic is supported by clear and easy-to-follow code snippets.
 
-TypeScript'e Giriş: TypeScript nedir ve modern web geliştirmedeki rolü.
+Introduction to TypeScript: What is TypeScript and its role in modern web development.
 
-Değişken Tipleri: string, number, boolean gibi temel tiplerden, array, tuple ve enum gibi gelişmiş tiplere kadar.
+Variable Types: From basic types like string, number, and boolean to more advanced types like array, tuple, and enum.
 
-Fonksiyonlar ve Sınıflar: Fonksiyonlarda tip güvenliği sağlamak ve Nesne Yönelimli Programlama (OOP) prensiplerini uygulamak.
+Functions and Classes: Ensuring type safety in functions and applying Object-Oriented Programming (OOP) principles.
 
-Miras Alma & Arayüzler (Inheritance & Interfaces): Kod tekrarını azaltmak ve esnek, yapısal bir kod mimarisi oluşturmak.
+Inheritance & Interfaces: Methods to reduce code duplication and create a flexible, structured code architecture.
 
-Generics: Çok yönlü ve tip-güvenli bileşenler yazmak için Generics'in gücü.
+Generics: The power of generics for writing versatile and type-safe components.
 
-Modüller: Büyük projelerde kod organizasyonu ve yönetimi.
+Modules: Organizing and managing code in large-scale projects.
 
-🛠️ Nasıl Kullanılır?
-Bu depoyu kendi makinenize klonlayın:
+🛠️ How to Use
+Clone this repository to your local machine:
 
 Bash
 
 git clone https://github.com/CestnyTR/typescript-basic.git
-Her bir konunun kendi dizinindeki kod dosyalarını (.ts) inceleyin.
+Examine the code files (.ts) located in the respective directories for each topic.
 
-TypeScript kodunu derlemek için terminalinizde şu komutu çalıştırın:
+To compile the TypeScript code, run the following command in your terminal:
 
 Bash
 
-tsc <dosya_adi.ts>
-Derleme sonucu oluşan JavaScript dosyasını (.js) tarayıcınızda veya Node.js ortamında çalıştırarak çıktıyı gözlemleyin.
+tsc <file_name.ts>
+Run the resulting JavaScript file (.js) in your browser or a Node.js environment to observe the output.
