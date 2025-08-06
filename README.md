@@ -1,29 +1,35 @@
-This project is a beginner-level TypeScript learning repository created to reinforce the knowledge gained from the "TypeScript Fundamentals" section of an Angular course. It aims to provide practical examples to help understand the advantages and core features that TypeScript offers over JavaScript.
+🚀 TypeScript Temelleri: Pratik Uygulama Projesi
+Bu proje, bir Angular dersinden edindiğim "TypeScript Temelleri" bilgilerini pekiştirmek ve pratik uygulamalarla kalıcı hale getirmek için oluşturduğum kapsamlı bir başlangıç seviyesi TypeScript deposudur. TypeScript'in JavaScript'e göre sunduğu güçlü avantajları, canlı kod örnekleri üzerinden keşfetmeyi hedefler.
 
-Key Topics Covered:
+💡 Projenin Amacı ve Felsefesi
+Bu depo, sadece teorik bilgileri değil, aynı zamanda TypeScript'in gerçek dünyada nasıl çalıştığını da göstermektedir. Kodunuzun derleme aşamasında hataları yakalama yeteneği sayesinde daha güvenilir, bakımı kolay ve ölçeklenebilir uygulamalar geliştirmeyi öğrenmek isteyenler için ideal bir kaynaktır. Bu proje, bir geliştiricinin neden TypeScript'i tercih etmesi gerektiğini somut örneklerle ortaya koymaktadır.
 
-Introduction to TypeScript: What TypeScript is and why it should be used.
+📚 Kapsanan Konular
+Her bir konu başlığı, kendi içinde anlaşılır ve takip edilebilir kod parçacıkları ile desteklenmektedir.
 
-Variable Types: Defining basic and advanced variable types with type safety.
+TypeScript'e Giriş: TypeScript nedir ve modern web geliştirmedeki rolü.
 
-Functions and Classes: Implementing type-safe functions and applying Object-Oriented Programming (OOP) principles.
+Değişken Tipleri: string, number, boolean gibi temel tiplerden, array, tuple ve enum gibi gelişmiş tiplere kadar.
 
-Inheritance & Interfaces: Methods for reducing code duplication and making the project more structured.
+Fonksiyonlar ve Sınıflar: Fonksiyonlarda tip güvenliği sağlamak ve Nesne Yönelimli Programlama (OOP) prensiplerini uygulamak.
 
-Generics: Making code more flexible and type-safe.
+Miras Alma & Arayüzler (Inheritance & Interfaces): Kod tekrarını azaltmak ve esnek, yapısal bir kod mimarisi oluşturmak.
 
-Modules: Organizing code in a modular structure within TypeScript.
+Generics: Çok yönlü ve tip-güvenli bileşenler yazmak için Generics'in gücü.
 
-Project's Goal:
+Modüller: Büyük projelerde kod organizasyonu ve yönetimi.
 
-This repository contains small code snippets that demonstrate TypeScript's working logic, its compilation process, and how it runs in the browser. The main goal is to provide hands-on practice in writing more reliable and maintainable code by leveraging TypeScript's ability to catch errors before compilation. This project is designed to help a developer clearly see the advantages that TypeScript provides.
+🛠️ Nasıl Kullanılır?
+Bu depoyu kendi makinenize klonlayın:
 
-How to Use:
+Bash
 
-Clone the repository.
+git clone https://github.com/KULLANICI_ADINIZ/typescript-basic.git
+Her bir konunun kendi dizinindeki kod dosyalarını (.ts) inceleyin.
 
-Examine the code in separate files for each lesson topic.
+TypeScript kodunu derlemek için terminalinizde şu komutu çalıştırın:
 
-Use the tsc <file_name.ts> command to see how TypeScript compiles.
+Bash
 
-Run the compiled JavaScript files in your browser to observe the output.
+tsc <dosya_adi.ts>
+Derleme sonucu oluşan JavaScript dosyasını (.js) tarayıcınızda veya Node.js ortamında çalıştırarak çıktıyı gözlemleyin.
